@@ -1,0 +1,173 @@
+/* 公共样式 */
+body{
+    font-size: 12px;
+    color: #333;
+}
+.container{
+    width: 1206px;
+    margin: 0 auto;
+}
+
+/* 顶部代码 */
+.com-top{
+    height: 38px;
+    background-color: #323232;
+}
+.com-top .top-left{
+    color: #a2a2a2;
+    line-height: 38px;
+    float: left;
+}
+.com-top .top-left span{
+    color: #3f3f3f;
+    padding: 0 3px;
+}
+.com-top .top-left a{
+    display: inline-block;
+}
+.com-top .top-left a:hover{
+    color: #fff;
+}
+.com-top .top-left .download{
+    position: relative;
+}
+.com-top .top-left .down-box{
+    width: 126px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 38px;
+    padding-top: 20px;
+    margin-left: -63px;
+    box-shadow: rgb(170,170,170) 0px 1px 5px;
+    text-align: center;
+    display: none;
+}
+.com-top .top-left .down-box img{
+    height: 88px;
+    width: 88px;
+    display: block;
+    margin: 0 auto;
+}
+.com-top .top-left a.download:hover .down-box{
+    display: block;
+}
+.com-top .top-left a.download i{
+    font-style: normal;
+    color: #323232;
+}
+.com-top .top-left a.download:hover i{
+    color: #323232;
+}
+.com-top .top-right{
+    float: right;
+    width: 300px;
+}
+.com-top .top-right .login{
+    color: #a2a2a2;
+    line-height: 38px;
+    float: right;
+    margin-right: 20px;
+}
+.com-top .top-right .login span{
+    color: #3f3f3f;
+    padding: 0 3px;
+}
+.com-top .top-right .car-box{
+    width: 118px;
+    background-color: #424242;
+    float: right;
+    height: 38px;
+}
+.com-top .top-right .title{
+    display: block;
+    width: 118px;
+    height: 38px;
+    background-color: #424242;
+    text-align: center;
+    line-height: 38px;
+    color: #a2a2a2;
+}
+.com-top .top-right a:hover{
+    color: #fff;
+}
+/* 导航 */
+.page-nav{
+    height: 96px;
+    position: relative;
+}
+.page-nav .logo{
+    display: block;
+    float: left;
+    width: 54px;
+    height: 54px;
+    margin-top: 21px;
+    background: #ff6700 url(../img/logo.png) center center no-repeat;
+    margin-right: 45px;
+}
+.page-nav .nav .nav-item{
+    margin-left: 20px;
+    float: left;
+    padding-top: 34px;
+}
+.page-nav .nav .nav-item .tit{
+    font-size: 16px;
+    color: #666;
+}
+.page-nav .nav .nav-item .tit:hover{
+    color:#ff6700;
+}
+.page-nav .nav-item .pop{
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    left: 0;
+    top: 96px;
+    background-color: #fff;
+    box-shadow: 0 3px 4px rgb(0, 0, 0,0.18);
+    border-top: 1px solid #e0e0e0;
+    display: none;
+}
+.page-nav .down-ul{
+    overflow: hidden;
+}
+.page-nav .down-li{
+    width: 241px;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+}
+.page-nav .down-li .pic img{
+    width: 160px;
+    height: 110px;
+}
+.page-nav .down-li .name{
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.page-nav .down-li .price{
+    color: #ff6700;
+    margin-top: 5px;
+}
+.page-nav .down-li i{
+    background-color: #e0e0e0;
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 36px;
+}
+.page-nav .down-li.last i,
+.page-nav .down-li:last-child i{
+    display: none;
+}
+.page-nav .nav .nav-item:hover .pop{
+    display: block;
+}
+
+
+
+#nav-catagory{
+    visibility: hidden;
+}
